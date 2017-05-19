@@ -16,6 +16,7 @@
 		63EA57381ECAB3400082C17D /* AppStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA57371ECAB3400082C17D /* AppStoreUITests.swift */; };
 		63EA57461ECAB74E0082C17D /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA57451ECAB74E0082C17D /* CategoryCell.swift */; };
 		63EA57481ECBA3640082C17D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA57471ECBA3640082C17D /* Models.swift */; };
+		63EA574A1ECE7EA70082C17D /* AppDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EA57491ECE7EA70082C17D /* AppDetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		63EA57391ECAB3400082C17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63EA57451ECAB74E0082C17D /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		63EA57471ECBA3640082C17D /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		63EA57491ECE7EA70082C17D /* AppDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				63EA57171ECAB33F0082C17D /* AppDelegate.swift */,
+				63EA57491ECE7EA70082C17D /* AppDetailController.swift */,
 				63EA57191ECAB33F0082C17D /* ViewController.swift */,
 				63EA57451ECAB74E0082C17D /* CategoryCell.swift */,
 				63EA57471ECBA3640082C17D /* Models.swift */,
@@ -271,6 +274,7 @@
 				63EA571A1ECAB33F0082C17D /* ViewController.swift in Sources */,
 				63EA57181ECAB33F0082C17D /* AppDelegate.swift in Sources */,
 				63EA57461ECAB74E0082C17D /* CategoryCell.swift in Sources */,
+				63EA574A1ECE7EA70082C17D /* AppDetailController.swift in Sources */,
 				63EA57481ECBA3640082C17D /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +435,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AvilaTek.AppStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -444,6 +449,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = AvilaTek.AppStore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
